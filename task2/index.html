@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: tomato;">Task2</h1>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p></td>
+                <td><img src="img/contact.png" alt="image" width="200px"></td>
+                <td><iframe src="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" frameborder="0" width="200px"></iframe></td>
+                <td rowspan="2"><video src="img/hand-of-woman-tenderly-stroking-purple-flowers-while-walking-on-summer-lavende-SBV-347429137-preview (1).mp4" width="200px" controls autoplay></video></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><audio src="img/audio.mp3" controls ></audio></td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <br>
+    <form target="_blank">
+        <label for="fname">First name</label>
+        <input type="text" placeholder="enter your first name" id="fname" name="fname" required><br><br>
+        <label for="lname">Last name</label>
+        <input type="text" placeholder="enter your last name" id="lname" name="lname"><br><br>
+        <label for="pass">password</label>
+        <input type="password" placeholder="enter your password" id="pass" name="password" required><br><br>
+        <label for="pass2">password again</label>
+        <input type="password" placeholder="repeat your password" id="pass2" name="pass2" required><br><br>
+        <label for="file">choose file</label>
+        <input type="file" id="file" name="file" multiple accept=".png,.pdf">
+        <fieldset>
+            <legend>Gender</legend>
+                
+                <input type="radio"name="gender" id="male">
+                <label for="male">male</label>
+                <br>
+                <input type="radio"name="gender" id="female">
+                <label for="female">female</label>
+                <br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>courses</legend>
+                
+                <input type="checkbox"name="course" id="html">
+                <label for="html">HTML</label>
+                <br>
+                <input type="checkbox"name="course" id="css">
+                <label for="css">CSS</label>
+                <br>
+                <input type="checkbox"name="course" id="JS">
+                <label for="JS">JS</label>
+                <br>
+            
+        </fieldset>
+        <br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <br><br>
+        <input type="submit">
+        <input type="reset" onclick="window.location.href='Thankyou.html'">
+        
+    </form>
+</body>
+</html>
