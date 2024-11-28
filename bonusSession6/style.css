@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    
+}
+
+.class1, .class2 {
+    display: flex; 
+    flex: 1;
+    justify-content: space-evenly; 
+}
+
+.div1, .black-div {
+    display: inline-block;
+    width: calc(100%/4);
+    height: 250px; 
+    text-align: center;
+    padding: 123px 0;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.div1 {    
+    color: black;
+    background-color: #ffffff;
+}
+
+.black-div {
+    color: #ffffff;
+    background-color: black;
+}
+.class1:hover .div1 {
+    color: #ffffff;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.class2:hover .black-div {
+
+    color: black;
+    background-color: #ffffff;
+    transition: 0.4s;
+}
