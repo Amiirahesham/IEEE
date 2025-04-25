@@ -1,0 +1,16 @@
+js session 5
+
+task 1 output=> 5
+                1
+
+
+task 2 output=> undefined
+                20
+                nondefined
+
+
+
+
+task 3 output=> undefined
+                undefined
+                Hi
